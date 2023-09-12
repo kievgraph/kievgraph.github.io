@@ -11,6 +11,9 @@
     <!-- bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 
+    <!-- css aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My Css -->
     <link rel="stylesheet" href="style.css" />
 
@@ -58,16 +61,17 @@
 
     <!-- profil -->
     <section class="jumbotron text-center mt-5 text-white" id="beranda">
-      <img src="img/profil.jpg" alt="Kievgraph" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/profil.jpg" alt="Kievgraph" width="200" class="rounded-circle img-thumbnail" data-aos="fade-in" data-aos-duration="2000" />
       <h1 class="display-4 fw-bolder">kievgraph</h1>
       <p class="lead fst-italic">Freelancer | Photography</p>
+      <p class=""><i class="bi bi-instagram"></i> kievgraph | <i class="bi bi-instagram"></i> kievphoto</p>
     </section>
 
     <!-- akhir profil -->
 
     <!-- link -->
     <section id="gallery">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1700">
         <div class="row text-center mb-4">
           <div class="col">
             <h2>Link Galllery</h2>
@@ -125,7 +129,7 @@
 
     <!-- about -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1700">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -155,7 +159,7 @@
     <!-- partner -->
 
     <div class="section" id="partner">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1700">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>Partner</h2>
@@ -187,7 +191,7 @@
 
     <!-- project -->
     <div class="section" id="project">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1700">
         <div class="row text-center mb-4">
           <div class="col">
             <h2>Project</h2>
@@ -226,7 +230,7 @@
 
     <!-- contact -->
     <section id="contact">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1700">
         <div class="row text-center mb-4">
           <div class="col">
             <h2>Contact Me</h2>
@@ -299,6 +303,10 @@
           })
           .catch((error) => console.error("Error!", error.message));
       });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
