@@ -36,3 +36,34 @@ footer {
   padding-top: 7rem;
   padding-bottom: 4rem;
 }
+
+.deskripsi {
+  font-size: 0.9rem;
+  font-weight: 100;
+  font-family: "Moon Dance", cursive;
+}
+
+.judul {
+  font-family: "roboto condensed", "sans-serif";
+}
+
+.judul1 {
+  font-weight: 350;
+  font-style: italic;
+  font-family: "Moon Dance", cursive;
+}
+
+.nav-link {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.nav-brand {
+  font-family: "roboto condensed", "sans-serif";
+}
+
+.judul2 {
+  /* font-family: 'Sofia Sans Semi Condensed', sans-serif; */
+  /* font-family: 'Fira Sans Condensed', sans-serif; */
+  font-family: "roboto condensed", "sans-serif";
+  /* font-family: 'Moon Dance', cursive; */
+}
