@@ -1,8 +1,8 @@
 .jumbotron {
   padding-top: 4rem;
   padding-bottom: 5rem;
-  background-image: url(img/bg-profil.jpg);
-  background-size: 100%;
+  background-image: url(img/bg2.jpg);
+  background-size: cover;
 }
 
 #about {
