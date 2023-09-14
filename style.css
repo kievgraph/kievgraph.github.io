@@ -29,7 +29,7 @@
 
 footer {
   background-color: #a303f3;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 footer a {
@@ -38,7 +38,7 @@ footer a {
 }
 
 footer small {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 footer li {
@@ -83,6 +83,20 @@ footer a:hover {
 
 .navbar a:hover {
   color: white;
+}
+
+.chat-icon {
+  position: fixed;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 2.5rem;
+  bottom: 7.5rem;
+  right: 1.3rem;
+}
+
+.chat-icon a {
+  color: green;
+  opacity: 0.7;
 }
 
 .judul2 {
