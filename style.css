@@ -32,6 +32,26 @@ footer {
   padding: 1rem;
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer small {
+  font-size: 1rem;
+}
+
+footer li {
+  list-style: none;
+  margin: 0.3rem;
+  display: inline;
+  font-size: 0.8rem;
+}
+
+footer a:hover {
+  color: Black;
+}
+
 #contact {
   padding-top: 7rem;
   padding-bottom: 4rem;
@@ -59,6 +79,10 @@ footer {
 
 .nav-brand {
   font-family: "roboto condensed", "sans-serif";
+}
+
+.navbar a:hover {
+  color: white;
 }
 
 .judul2 {
