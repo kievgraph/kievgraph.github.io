@@ -87,10 +87,6 @@ footer a:hover {
   color: white;
 }
 
-.navbar a:hover {
-  color: #707070;
-}
-
 .chat-icon {
   position: fixed;
   width: 2.5rem;
