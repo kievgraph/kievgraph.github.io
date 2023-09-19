@@ -6,13 +6,21 @@
 }
 
 #about {
-  padding-top: 5rem;
+  padding-top: 4rem;
   padding-bottom: 3rem;
 }
 
 #gallery {
-  padding-top: 5rem;
+  padding-top: 4rem;
   background-color: rgb(241, 239, 239);
+}
+
+#gallery .link-gallery button {
+  background: #da48ff;
+  font-style: italic;
+}
+#gallery .link-gallery button img {
+  max-width: 38px;
 }
 
 #album img {
@@ -27,7 +35,7 @@
 
 #project {
   background-color: #fbeefd;
-  padding-top: 5rem;
+  padding-top: 4rem;
   padding-bottom: 3rem;
 }
 
@@ -63,7 +71,7 @@ footer a:hover {
 }
 
 #contact {
-  /* padding-top: 3rem; */
+  padding-top: 1rem;
   padding-bottom: 10rem;
 }
 
